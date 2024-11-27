@@ -1,0 +1,92 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff; /* Primary color for the navbar */
+}
+
+.navbar-brand img {
+    max-width: 50px;
+}
+
+.navbar-text {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+/* Button Styling */
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Fixed height for square buttons */
+    width: 250px; /* Fixed width for square buttons */
+    text-align: center;
+    background-color: #F4F4F4; /* Custom button color */
+    border: none; /* Remove border for custom color */
+    color: black; /* Text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out; /* Smooth scaling on hover */
+    margin: 10px; /* Adds margin between buttons */
+}
+
+.btn:hover {
+    transform: scale(1.05); /* Scale button on hover */
+}
+
+.btn img {
+    max-width: 50px; /* Adjust image size */
+    margin-bottom: 10px;
+}
+
+/* Ensure row is centered */
+.row {
+    justify-content: center;
+    gap: 20px; /* Adds space between each button in the row */
+}
+
+/* Margin between rows */
+.g-3 {
+    margin-top: 20px; /* Add spacing between rows */
+}
+
+/* Announcement Section */
+h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Announcement Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Video and Carousel styling */
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%); /* Make the carousel controls visible on dark background */
+}
+
